@@ -1,4 +1,5 @@
-.color_mr, .color_mg, .color_mb, .color_yr, .color_yg, .color_yb, .color_cier, .color_cieg, .color_cieb   {
+.color_mr, .color_mg, .color_mb, .color_yr, .color_yg,
+.color_yb, .color_cier, .color_cieg, .color_cieb {
     display: inline-block;
     white-space: no-wrap;
     /* line-height: 1.4em; */
@@ -9,7 +10,9 @@
     position: relative;
 }
 
-.color_mr:after, .color_mg:after, .color_mb:after, .color_yr:after, .color_yg:after, .color_yb:after, .color_cier:after, .color_cieg:after, .color_cieb:after  {
+.color_mr:after, .color_mg:after, .color_mb:after,
+.color_yr:after, .color_yg:after, .color_yb:after,
+.color_cier:after, .color_cieg:after, .color_cieb:after {
     font-weight: normal;
     position: absolute;
     font-size: 0.75em;
@@ -20,15 +23,15 @@
     content: '—';
 }
 
-.color_mr:after, .color_mg:after, .color_mb:after   {
+.color_mr:after, .color_mg:after, .color_mb:after {
     bottom: -0.65em;
 }
 
-.color_yr:after, .color_yg:after, .color_yb:after   {
+.color_yr:after, .color_yg:after, .color_yb:after {
     top: -0.75em;
 }
 
-.color_cier:after, .color_cieg:after, .color_cieb:after  {
+.color_cier:after, .color_cieg:after, .color_cieb:after {
     content: 'CIE';
     bottom: -1.6em;
     font-size: 0.3em;
@@ -63,22 +66,21 @@
     padding: 0.0em 0.2em;
     border-radius: 0.2em;
     background: #292929;
-    margin:0.0em 0.05em;
+    margin: 0.0em 0.05em;
 }
 
 .color_comp_xyz {
     color: #eee;
 }
+
 .color_comp_r {
     /* background: rgba(231, 76, 60, 0.5); */
     color: #e74c3c;
-
 }
 
 .color_comp_g {
     /* background: rgba(53, 194, 91, 0.5); */
     color: #35C25B;
-
 }
 
 .color_comp_b {
@@ -86,11 +88,10 @@
     color: #5D76E8;
 }
 
-
 .color_matrix {
     text-align: center;
     padding: 1.5em 1em;
-    font-size:1.42em;
+    font-size: 1.42em;
     line-height: 1.6em;
 }
 
@@ -100,16 +101,15 @@
 }
 
 .color_equation {
-    font-size:1.42em;
+    font-size: 1.42em;
     font-weight: 500;
     overflow-x: auto;
     overflow-y: visible;
-    margin:-0.5em auto;
+    margin: -0.5em auto;
     text-align: center;
     padding: 1.5em 1em;
     line-height: 1.8em;
-    }
-
+}
 
 .color_canvas_aspect_container {
     width: 90%;
@@ -117,7 +117,6 @@
     position: relative;
     margin: 2em auto 0 auto;
 }
-
 
 .color_matcher_container {
     margin: 2em auto;
@@ -139,7 +138,6 @@
     height: 250px;
     border-radius: 10px;
 }
-
 
 .color_match0_halfs {
     height: 125px;
@@ -164,14 +162,14 @@
     position: absolute;
     width: 150px;
     height: 150px;
-    left:125px;
+    left: 125px;
     top: 50px;
     border-radius: 75px;
 }
 
 .color_match_label_container {
     position: relative;
-    width:100%;
+    width: 100%;
     height: 90px;
     top: 33%;
     top: calc(50% - 39px);
@@ -191,20 +189,18 @@
 .color_match0_halfs .color_label_prefix:after, .color_match1_halfs .color_label_prefix:after {
     content: '—';
     position: absolute;
-    position: absolute;
     font-size: 0.75em;
     text-align: center;
     width: 100%;
     left: 0;
-    content: '—';
 }
 
 .color_match1_halfs .color_label_prefix:after {
-    bottom: -0.5em;   
+    bottom: -0.5em;
 }
 
 .color_match0_halfs .color_label_prefix:after {
-    top: -0.55em;   
+    top: -0.55em;
 }
 
 .color_red_slider {
@@ -259,11 +255,11 @@
 }
 
 .color_gamut_slider_knob {
-    left:-20px;
+    left: -20px;
     top: -20px;
 }
 
-.color_gamut_slider_left_gutter, .color_gamut_slider_right_gutter, .color_gamut_slider_knob  {
+.color_gamut_slider_left_gutter, .color_gamut_slider_right_gutter, .color_gamut_slider_knob {
     background: #333;
 }
 
@@ -285,7 +281,6 @@
     bottom: 10px;
 }
 
-
 .color_plot_container {
     margin: -1.5em auto;
     width: 100%;
@@ -306,7 +301,6 @@
     margin: 2em auto;
 }
 
-
 .color_plates_container {
     width: 90%;
     margin: 2em auto;
@@ -326,9 +320,11 @@
     width: 100%;
     height: 40px;
 }
+
 .color_plate_group_top {
     border-radius: 10px 10px 0 0;
 }
+
 .color_plate_group_bottom {
     border-radius: 0 0 10px 10px;
 }
@@ -347,8 +343,7 @@
     margin: 2px 0;
 }
 
-.color_plate_group_slider_bg, .color_plate_group_slider_p 
-{
+.color_plate_group_slider_bg, .color_plate_group_slider_p {
     height: 4px;
     border-radius: 2px;
 }
@@ -358,7 +353,7 @@
 }
 
 .color_plate_group_slider_p {
-    top:0px;
+    top: 0px;
     position: absolute;
 }
 
@@ -382,9 +377,7 @@ body.color_dark {
     color: #eee !important;
 }
 
-
 @media only screen and (max-width: 520px) {
-
     .color_matcher_container {
         width: 350px;
     }
@@ -396,13 +389,14 @@ body.color_dark {
     .color_plate_group_top, .color_plate_group_bottom {
         height: 30px;
     }
+
     .color_plate_group_top {
         border-radius: 5px 5px 0 0;
     }
+
     .color_plate_group_bottom {
         border-radius: 0 0 5px 5px;
     }
-
 
     .color_plates_container {
         width: 100%;
@@ -418,26 +412,25 @@ body.color_dark {
     }
 
     .color_equation {
-        font-size:1.3em;
+        font-size: 1.3em;
         padding: 1.5em 0;
-        }
+    }
 
-        .color_matrix {
-            font-size:1.35em;
-        }
+    .color_matrix {
+        font-size: 1.35em;
+    }
 
-        .color_plot_container {
-            height: 420px;
-        }
+    .color_plot_container {
+        height: 420px;
+    }
 
-        .color_canvas_aspect_container {
-            width: 100%;
-            padding-bottom: 66.66%;
-        }
+    .color_canvas_aspect_container {
+        width: 100%;
+        padding-bottom: 66.66%;
+    }
 }
 
 @media only screen and (max-width: 420px) {
-
     .color_matcher_container {
         width: 320px;
     }
@@ -454,24 +447,21 @@ body.color_dark {
         height: 25px;
     }
 
-
     .color_equation {
-        font-size:1.2em;
+        font-size: 1.2em;
         padding: 1.5em 0;
-        }
+    }
 
-        .color_matrix {
-            font-size:1.2em;
-        }
+    .color_matrix {
+        font-size: 1.2em;
+    }
 
-        .color_plot_container {
-            height: 350px;
-        }
+    .color_plot_container {
+        height: 350px;
+    }
 }
 
-
 @media only screen and (max-width: 360px) {
-
     .color_matcher_container {
         width: 280px;
     }
@@ -480,13 +470,12 @@ body.color_dark {
         width: 260px;
     }
 
-
     .color_equation {
-        font-size:1.25em;
+        font-size: 1.25em;
         padding: 1.5em 0;
-        }
+    }
 
-        .color_plot_container {
-            height: 350px;
-        }
+    .color_plot_container {
+        height: 350px;
+    }
 }

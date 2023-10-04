@@ -1,49 +1,49 @@
 .color_red {
-    color :#E75B55;
+    color: #E75B55;
 }
 
 .color_orange {
-    color :#E48850;
+    color: #E48850;
 }
 
 .color_yellow {
-    color :#d3a832;
+    color: #d3a832;
 }
 
 .color_green {
-    color :#6d9c37;
+    color: #6d9c37;
 }
 
 .color_cyan {
-    color :#4bafa7;
+    color: #4bafa7;
 }
 
 .color_blue {
-    color :#4590ce;
+    color: #4590ce;
 }
 
 .color_violet {
-    color :#ab70b6;
+    color: #ab70b6;
 }
 
 .color_gray {
-    color :#999999;
+    color: #999999;
 }
 
 .color_bridge {
-    color :#7e7e7e;
+    color: #7e7e7e;
 }
 
 .color_dark_gray {
-    color :#666666;
+    color: #666666;
 }
 
 .color_hand {
-    color :#242424;
+    color: #242424;
 }
 
 .color_jewel {
-    color :#da8c9c;
+    color: #da8c9c;
 }
 
 .color_turn {
@@ -67,7 +67,7 @@
 
 .loading_text {
     margin: 0 auto;
-    color:#333;
+    color: #333;
     font-size: 1.3em;
     text-align: center;
     position: absolute;
@@ -78,9 +78,15 @@
 }
 
 @keyframes flicker {
-    0%   { opacity:1; }
-    50%  { opacity:0.5; }
-    100% { opacity:1; }
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .drawer_container {
@@ -100,7 +106,7 @@
 }
 
 #torsion_spring,
-#torsion_spring2, 
+#torsion_spring2,
 #torsion_spring3 {
     max-width: 500px;
 }
@@ -190,5 +196,5 @@
 .slider_gray .slider_left_gutter,
 .slider_gray .slider_right_gutter,
 .slider_gray .slider_knob {
-    background :#bbbaba;
+    background: #bbbaba;
 }

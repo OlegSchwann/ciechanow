@@ -1,4 +1,3 @@
-
 .undo_button_offset {
     bottom: calc(20% + 13px);
 }
@@ -6,8 +5,6 @@
 .undo_button_offset2 {
     bottom: calc(30% + 15px);
 }
-
-
 
 .cs_yellow_bg {
     background-color: #EBBC3F;
@@ -42,10 +39,10 @@
 .text_red {
     color: #E92525;
 }
+
 .text_green {
     color: #54B224;
 }
-
 
 .text_purple {
     color: #985FDE;
@@ -191,23 +188,23 @@
     margin-left: -0.1em;
 }
 
-.nt>.triangle::after, .ns>.triangle::after {
+.nt > .triangle::after, .ns > .triangle::after {
     border-bottom: 0.6em solid rgba(0, 0, 0, 0.6);
     border-right: 0.6em solid transparent;
     margin-left: -0.1em;
 }
 
-.t>.triangle::after, .s>.triangle::after {
+.t > .triangle::after, .s > .triangle::after {
     border-bottom: 0.6em solid rgba(0, 0, 0, 0.6);
     border-left: 0.6em solid transparent;
     margin-left: -0.2em;
 }
 
-.t.small>.triangle::after, .s.small>.triangle::after {
+.t.small > .triangle::after, .s.small > .triangle::after {
     margin-left: -0.4em;
 }
 
-.nt.small>.triangle::after, .ns.small>.triangle::after {
+.nt.small > .triangle::after, .ns.small > .triangle::after {
     margin-left: -0.3em;
 }
 
@@ -251,7 +248,7 @@
     color: #E2AD22;
 }
 
-#cc_list li>span {
+#cc_list li > span {
     color: #333;
 }
 
@@ -312,12 +309,11 @@ td.no_right_pad {
 
 /* .drawer_container:after {
     padding-top: 100%;
-    }
-     */
+}
 
-/* #cs_square_sl1 {
-         height: 100%;
-     } */
+#cs_square_sl1 {
+    height: 100%;
+} */
 
 #square_container {
     max-width: 400px;
@@ -425,38 +421,32 @@ td.no_right_pad {
     padding: 0.5em 0.2em;
 }
 
-
 @media only screen and (max-width: 700px) {
-
-
     .equation {
         font-size: 1.4em;
-    } 
+    }
+
     #cs_point_coords_equation {
         font-size: 1.2em;
     }
-
 }
 
 @media only screen and (max-width: 600px) {
-
     .equation {
         font-size: 1.3em;
-    } 
+    }
+
     #cs_point_coords_equation {
         font-size: 1.1em;
     }
+
     .equation_inline {
         font-size: 0.9em;
         line-height: 1.5em;
     }
-
 }
 
-
-
 @media only screen and (max-width: 520px) {
-
     .equation_inline {
         font-size: 0.9em;
         line-height: 1.4em;
@@ -465,6 +455,7 @@ td.no_right_pad {
     .equation {
         font-size: 1.1em;
     }
+
     #cs_point_coords_equation {
         font-size: 1em;
     }
@@ -474,9 +465,7 @@ td.no_right_pad {
     }
 }
 
-
 @media only screen and (max-width: 420px) {
-
     .equation_inline {
         font-size: 0.8em;
     }
@@ -484,19 +473,17 @@ td.no_right_pad {
     .equation {
         font-size: 1em;
     }
+
     #cs_point_coords_equation {
         font-size: 0.9em;
     }
-
 }
 
-
 @media only screen and (max-width: 380px) {
-
     .equation_inline {
         font-size: 0.7em;
     }
-    
+
     .equation {
         font-size: 0.9em;
     }
@@ -504,5 +491,4 @@ td.no_right_pad {
     #cs_point_coords_equation {
         font-size: 0.8em;
     }
-
 }
