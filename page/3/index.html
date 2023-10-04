@@ -46,7 +46,7 @@
                     
 <div class="article">
     <div class="post_date">May 4, 2022</div>
-    <h1 class="post_title"><a href="https://ciechanow.ski/mechanical-watch/">Mechanical Watch</a></h1>
+    <h1 class="post_title"><a href="/mechanical-watch/">Mechanical Watch</a></h1>
     <div class="padding_wrapper"><p>In the world of modern portable devices, it may be hard to believe that merely a few decades ago the most convenient way to keep track of time was a mechanical watch. Unlike their quartz and smart siblings, mechanical watches can run without using any batteries or other electronic components.</p>
 <p>Over the course of this article I&rsquo;ll explain the workings of the mechanism seen in the demonstration below. You can drag the device around to change your viewing angle, and you can use the slider to peek at what&rsquo;s going on inside:</p>
 <div class="drawer_container ratio_100" id="hero"></div>
@@ -57,7 +57,7 @@
 <p>While the entire watch movement has many parts, the timekeeping system, which forms the core function of any watch, consists of just seven major elements which we can lay out in a straight line:</p>
 <div class="drawer_container ratio_40" id="hero_movement"></div>
 <p>It may not look like much, but these parts still have a lot of interesting details about them that contribute to the <span class="color_hand"><strong>second hand</strong></span> rotating at a correct pace. We&rsquo;ll start exploring these details by focusing on the source of power for this entire contraption.</p>
-<h1 id="power">Power<a href="https://ciechanow.ski/mechanical-watch/#power" class="hanchor" ariaLabel="Anchor"><img src="/images/anchor.png" width="16px" height="8px"/></a> </h1>
+<h1 id="power">Power<a href="/mechanical-watch/#power" class="hanchor" ariaLabel="Anchor"><img src="/images/anchor.png" width="16px" height="8px"/></a> </h1>
 <p>Purely mechanical devices have a few different ways to power themselves, but one of the simplest methods to store energy is to use a spring. Most springs we see in daily life are <em>coil</em> springs. In the demonstration below, you can move the <span class="color_red"><strong>mass</strong></span> attached to this type of <span class="color_yellow"><strong>spring</strong></span> to see it bounce:</p>
 <div class="drawer_container ratio_100" id="coil_spring"></div>
 <div id="coil_spring_sl0" class="slider_red"></div>
@@ -98,8 +98,8 @@
 <div id="mainspring_wind2_sl0" class="slider_yellow"></div>
 <p>We clearly have some work to do – the <span class="color_hand"><strong>hand</strong></span> spins way too fast and it only does a few rotations before the <span class="color_gray"><strong>mainspring</strong></span> inside the <span class="color_red"><strong>barrel</strong></span> runs out of the stored energy. Clearly, this contraption won&rsquo;t let us track time in any reliable way.</p>
 <p>If we wanted our watch to run continuously for around 40 hours on a single wind, we&rsquo;d need the minute hand to complete 40 rotations in that time. Moreover, the second hand should cover around 40 × 60 = 2400 complete rotations in that time. We need to find a way to convert a small number of revolutions of the <span class="color_red"><strong>barrel</strong></span> into a large number of revolutions of the hands. This is where gears come in.</p>
-<h1 id="gears">Gears<a href="https://ciechanow.ski/mechanical-watch/#gears" class="hanchor" ariaLabel="Anchor"><img src="/images/anchor.png" width="16px" height="8px"/></a> </h1>
-<p>I&rsquo;ve <a href="https://ciechanow.ski/gears/">talked about gears</a> on this blog before, so let me just recap things very briefly. Gears can be used to change the speed of rotation between two different axes. In the demonstration below, you can witness that by observing little dots I put on each gear – the <span class="color_yellow"><strong>yellow gear</strong></span>, which is powered by the bigger <span class="color_red"><strong>red gear</strong></span>, takes much less time to finish a single revolution:</p>
+<h1 id="gears">Gears<a href="/mechanical-watch/#gears" class="hanchor" ariaLabel="Anchor"><img src="/images/anchor.png" width="16px" height="8px"/></a> </h1>
+<p>I&rsquo;ve <a href="/gears/">talked about gears</a> on this blog before, so let me just recap things very briefly. Gears can be used to change the speed of rotation between two different axes. In the demonstration below, you can witness that by observing little dots I put on each gear – the <span class="color_yellow"><strong>yellow gear</strong></span>, which is powered by the bigger <span class="color_red"><strong>red gear</strong></span>, takes much less time to finish a single revolution:</p>
 <div class="drawer_container ratio_100" id="gears_base"></div>
 <p>An important aspect of two matching gears is their number of teeth. Each tooth in one gear meets with a space between teeth in the other gear, so within a unit of time both gears rotate by the same number of teeth. If the number of teeth in two gears is different, those gears can take a different amount of time to complete a single rotation. In the demonstration below, you can change the <em>ratio</em> of the number of teeth between the driving <span class="color_red"><strong>red gear</strong></span> and the driven <span class="color_yellow"><strong>yellow gear</strong></span> to see how it affects the speed of rotation of that <span class="color_yellow"><strong>yellow gear</strong></span>:</p>
 <div class="drawer_container ratio_50" id="gears_base2"></div>
@@ -113,12 +113,12 @@
 <div class="drawer_container ratio_50" id="gear_train"></div>
 <div id="gear_train_sl0"></div>
 <p>The <span class="color_red"><strong>barrel</strong></span> acts as the <span class="color_red"><strong>first wheel</strong></span>, it drives the <span class="color_orange"><strong>second wheel</strong></span>, which drives the <span class="color_yellow"><strong>third wheel</strong></span>, which finally drives the <span class="color_green"><strong>fourth wheel</strong></span>. Notice that each big gear drives a smaller gear called a <em>pinion</em>. A pinion is mounted on the same shaft as the next big gear so we&rsquo;re able to keep increasing the speed on each axis. This approach has significant advantages – we&rsquo;re able to make the overall mechanism much smaller and we&rsquo;ll soon use one of the intermediate wheels that rotates at a slower rate to drive minute and hour hands.</p>
-<p>Before we finish up with gears, let me quickly mention the shape of their teeth. While many bigger machines use an <a href="https://ciechanow.ski/gears/#strings-attached">involute shape</a> for the profile of their gear teeth, mechanical watches commonly use <em>cycloidal</em> profiles which are obtained by <a href="https://www.tec-science.com/mechanical-power-transmission/cycloidal-gear/geometry-of-cycloidal-gears/">rolling a circle on the surface of another circle</a>.</p>
+<p>Before we finish up with gears, let me quickly mention the shape of their teeth. While many bigger machines use an <a href="/gears/#strings-attached">involute shape</a> for the profile of their gear teeth, mechanical watches commonly use <em>cycloidal</em> profiles which are obtained by <a href="https://www.tec-science.com/mechanical-power-transmission/cycloidal-gear/geometry-of-cycloidal-gears/">rolling a circle on the surface of another circle</a>.</p>
 <p>Let&rsquo;s see how the so-called <em>going train</em> that we&rsquo;ve assembled works when we wind the <span class="color_gray"><strong>mainspring</strong></span> through the <span class="color_yellow"><strong>arbor</strong></span> and let the watch run:</p>
 <div class="drawer_container ratio_50" id="gear_train2"></div>
 <div id="gear_train2_sl0" class="slider_yellow"></div>
 <p>We&rsquo;ve certainly achieved the goal of the <span class="color_hand"><strong>second hand</strong></span> rotating many times on a single rotation of the <span class="color_red"><strong>barrel</strong></span>, but the speed of revolution of that <span class="color_hand"><strong>hand</strong></span> is still completely untamed. We need to find a way to control the rate of release of the energy stored in the <span class="color_gray"><strong>mainspring</strong></span> – we&rsquo;ll do this with the <em>escapement</em>.</p>
-<h1 id="escapement">Escapement<a href="https://ciechanow.ski/mechanical-watch/#escapement" class="hanchor" ariaLabel="Anchor"><img src="/images/anchor.png" width="16px" height="8px"/></a> </h1>
+<h1 id="escapement">Escapement<a href="/mechanical-watch/#escapement" class="hanchor" ariaLabel="Anchor"><img src="/images/anchor.png" width="16px" height="8px"/></a> </h1>
 <p>Let&rsquo;s start by looking at the two components that create the escapement – the <span class="color_cyan"><strong>escape wheel</strong></span> and the <span class="color_blue"><strong>pallet fork</strong></span>:</p>
 <div class="drawer_container ratio_100" id="escapement_parts"></div>
 <p>Notice the unusual shape of the teeth of the <span class="color_cyan"><strong>escape wheel</strong></span> – it&rsquo;s very different than the gears we&rsquo;ve seen before. Its top part hosts a regularly shaped gear that can be used to turn that <span class="color_cyan"><strong>wheel</strong></span>.</p>
@@ -131,7 +131,7 @@
 <div id="gear_train3_seg0"></div>
 <p>The mainspring wants to unwind by rotating the <span class="color_cyan"><strong>escape wheel</strong></span>, but the <span class="color_blue"><strong>pallet fork</strong></span> only allows this to happen for a brief period of time. Because of the gear reduction, the rotation of the <span class="color_red"><strong>barrel</strong></span> is pretty much invisible. However, if you observe the <span class="color_hand"><strong>hand</strong></span> attached to the <span class="color_green"><strong>fourth wheel</strong></span>, you can see it gently rotate as you swing the <span class="color_blue"><strong>pallet fork</strong></span> back and forth.</p>
 <p>The little time keeping mechanism is almost fully functional now. The last remaining piece here is a device that will automatically tick the <span class="color_blue"><strong>pallet fork</strong></span> back and forth. However, for the watch to track time correctly that ticking action has to happen at an appropriate cadence. This is where the <em>balance</em> comes in – it forms the beating heart of a watch.</p>
-<h1 id="balance">Balance<a href="https://ciechanow.ski/mechanical-watch/#balance" class="hanchor" ariaLabel="Anchor"><img src="/images/anchor.png" width="16px" height="8px"/></a> </h1>
+<h1 id="balance">Balance<a href="/mechanical-watch/#balance" class="hanchor" ariaLabel="Anchor"><img src="/images/anchor.png" width="16px" height="8px"/></a> </h1>
 <p>Let&rsquo;s bring up the first torsion spring we saw before – recall that once you twist it from its original position, it will oscillate back and forth, only to settle after a while:</p>
 <div class="drawer_container ratio_100" id="torsion_spring2"></div>
 <div id="torsion_spring2_sl0" class="slider_red"></div>
@@ -167,7 +167,7 @@
 <div class="drawer_container ratio_50" id="gear_train6"></div>
 <p>In this watch movement the <span class="color_violet"><strong>balance wheel</strong></span> does a full back and forth swing four times per second, hitting the <span class="color_blue"><strong>pallet fork</strong></span> twice during each cycle, for a total of 8 <em>beats</em> per second or 28,800 beats per hour. While different watches may have different rates, they all do a tiny turn of the <span class="color_hand"><strong>second hand</strong></span> many times per second, which gives mechanical watches the illusion of a very smooth hand motion.</p>
 <p>In principle, all the pieces we have here are sufficient for the watch to run, but we&rsquo;re still missing a few details. More importantly, we&rsquo;ve just been hanging the parts in the air, so it&rsquo;s time we started a proper assembly of the complete watch movement.</p>
-<h1 id="mainplate">Mainplate<a href="https://ciechanow.ski/mechanical-watch/#mainplate" class="hanchor" ariaLabel="Anchor"><img src="/images/anchor.png" width="16px" height="8px"/></a> </h1>
+<h1 id="mainplate">Mainplate<a href="/mechanical-watch/#mainplate" class="hanchor" ariaLabel="Anchor"><img src="/images/anchor.png" width="16px" height="8px"/></a> </h1>
 <p>We&rsquo;ll start with the <strong>mainplate</strong>, which forms the main body of the movement:</p>
 <div class="drawer_container ratio_100" id="main_plate"></div>
 <p>Notice that it has <em>a lot</em> of different openings – we&rsquo;ll fill them in by the end of this article. The pink elements are yet again <span class="color_jewel"><strong>ruby jewels</strong></span>. They form bearings in which the axes of various components can rotate. Let&rsquo;s look at a simple jewel up close:</p>
@@ -214,7 +214,7 @@
 <div id="arbor_spring_wind_sl0" class="slider_yellow"></div>
 <p>As long as the <span class="color_yellow"><strong>arbor</strong></span> is held, the <span class="color_gray"><strong>mainspring</strong></span> can power the rest of the watch – you can see the rotation of the <span class="color_hand"><strong>second hand</strong></span> attached to the <span class="color_green"><strong>fourth wheel</strong></span> on the other side of the watch. However, as we let the <span class="color_yellow"><strong>arbor</strong></span> go the <span class="color_gray"><strong>mainspring</strong></span> finds an easy way to release its tension by just turning the <span class="color_yellow"><strong>arbor</strong></span> back – the <span class="color_gray"><strong>spring</strong></span> quickly losses all its stored energy and the watch stops.</p>
 <p>To prevent the <span class="color_gray"><strong>mainspring</strong></span> from unwinding on its own, we need to restrain the <span class="color_yellow"><strong>arbor</strong></span> from turning counterclockwise, while still allowing the <em>clockwise</em> rotation so that we can wind the <span class="color_gray"><strong>spring</strong></span>. This seemingly complicated problem is solved with a very simple mechanism known as the <em>click</em> – let&rsquo;s see how it works.</p>
-<h1 id="click">Click<a href="https://ciechanow.ski/mechanical-watch/#click" class="hanchor" ariaLabel="Anchor"><img src="/images/anchor.png" width="16px" height="8px"/></a> </h1>
+<h1 id="click">Click<a href="/mechanical-watch/#click" class="hanchor" ariaLabel="Anchor"><img src="/images/anchor.png" width="16px" height="8px"/></a> </h1>
 <p>To continue developing our assembly, we firstly need to put a solid foundation in the form of the <span class="color_bridge"><strong>barrel bridge</strong></span> – it holds the <span class="color_red"><strong>barrel</strong></span> in place and provides structure for other parts. Since this <span class="color_bridge"><strong>bridge</strong></span> will make some areas inaccessible, we&rsquo;re also going to attach a <span class="color_cyan"><strong>little lever</strong></span> that we will get back to at a later point:</p>
 <div class="drawer_container ratio_100" id="arbor_barrel_bridge"></div>
 <div id="arbor_barrel_bridge_sl0" class="slider_assembly"></div>
@@ -254,7 +254,7 @@
 <div class="drawer_container ratio_100" id="crown_wheel_go"></div>
 <div id="crown_wheel_go_sl0" class="slider_yellow"></div>
 <p>The <span class="color_hand"><strong>second hand</strong></span> on the other side of the watch shows how the seconds are tracked, but a functional watch should show minutes and hours as well. Let&rsquo;s see how this watch movement accomplishes these goals with a set of gears that form the so-called <em>motion works</em>.</p>
-<h1 id="motion-works">Motion Works<a href="https://ciechanow.ski/mechanical-watch/#motion-works" class="hanchor" ariaLabel="Anchor"><img src="/images/anchor.png" width="16px" height="8px"/></a> </h1>
+<h1 id="motion-works">Motion Works<a href="/mechanical-watch/#motion-works" class="hanchor" ariaLabel="Anchor"><img src="/images/anchor.png" width="16px" height="8px"/></a> </h1>
 <p>In our movement, the second hand is cleverly mounted on the fourth wheel of the power train since that wheel rotates once per minute with high precision. For the minute hand to turn at the correct pace, we need <em>some</em> axis to rotate 60 times slower than that. Thankfully, the designers of this watch movement used an ingenious way to harness some of that speed reduction from the other gears.</p>
 <p>If you look closely, you can see that the small gear of the <span class="color_yellow"><strong>third wheel</strong></span> from the other side of the watch is exposed through a little opening. We can mount a <span class="color_green"><strong>cannon pinion</strong></span> with its <span class="color_blue"><strong>driving wheel</strong></span> onto the center of the watch and have that <span class="color_blue"><strong>driving wheel</strong></span> mesh with the <span class="color_yellow"><strong>small gear</strong></span>:</p>
 <div class="drawer_container ratio_100" id="cannon_pinion_assembly"></div>
@@ -270,7 +270,7 @@
 <div class="drawer_container ratio_100" id="hour_wheel_action"></div>
 <div id="hour_wheel_action_sl0"></div>
 <p>Time keeping is the fundamental function of every watch, but many devices go beyond that by adding various additional features known as <em>complications</em>. While our movement is not very sophisticated, it still has a nice complication that shows the current day of the month right in the little window on the right side of the dial. Let&rsquo;s see how this feature is implemented.</p>
-<h1 id="date">Date<a href="https://ciechanow.ski/mechanical-watch/#date" class="hanchor" ariaLabel="Anchor"><img src="/images/anchor.png" width="16px" height="8px"/></a> </h1>
+<h1 id="date">Date<a href="/mechanical-watch/#date" class="hanchor" ariaLabel="Anchor"><img src="/images/anchor.png" width="16px" height="8px"/></a> </h1>
 <p>The date mechanism in this watch consists of four major parts – the <span class="color_red"><strong>jumper spring</strong></span>, the <span class="color_green"><strong>indicator gear</strong></span>, the <span class="color_bridge"><strong>date jumper plate</strong></span> with its <span class="color_blue"><strong>gear</strong></span>, and the big date ring itself with all possible 31 days imprinted on it:</p>
 <div class="drawer_container ratio_100" id="date_assembly"></div>
 <div id="date_assembly_sl0" class="slider_assembly"></div>
@@ -291,7 +291,7 @@
 <p>With every step our watch is becoming more complete, but we still have a few inconveniences in our way. To change the time and to wind the mainspring, we have to turn the internal gears of the movement, which normally are safely hidden inside the watch case.</p>
 <p>Moreover, on every month that lasts less than 31 days, we currently have to tweak the time setting, as that&rsquo;s the only way to adjust the date. Ideally, we&rsquo;d find a way to set the date separately from the time.</p>
 <p>To fix these problems we&rsquo;ll assemble the <em>keyless works</em> which is a mechanism that will let us resolve all these issues.</p>
-<h1 id="keyless-works">Keyless Works<a href="https://ciechanow.ski/mechanical-watch/#keyless-works" class="hanchor" ariaLabel="Anchor"><img src="/images/anchor.png" width="16px" height="8px"/></a> </h1>
+<h1 id="keyless-works">Keyless Works<a href="/mechanical-watch/#keyless-works" class="hanchor" ariaLabel="Anchor"><img src="/images/anchor.png" width="16px" height="8px"/></a> </h1>
 <p>Firstly, let&rsquo;s look at the <span class="color_dark_gray"><strong>crown</strong></span>, which is the main interface for operating the watch, and the <span class="color_gray"><strong>stem</strong></span>  that is attached to that crown:</p>
 <div class="drawer_container ratio_100" id="stem_crown"></div>
 <p>The crown sits freely on the outside of the watch and is directly touched by the user. Notice that part of the stem has a square cross section. The stem carries two additional components – the <span class="color_red"><strong>winding pinion</strong></span> and the <span class="color_blue"><strong>sliding pinion</strong></span>. First, let&rsquo;s slide them on to see how they fit:</p>
@@ -365,7 +365,7 @@
 <div class="drawer_container ratio_100" id="minute_bridge_assembly"></div>
 <div id="minute_bridge_assembly_sl0" class="slider_assembly"></div>
 <p>We&rsquo;re almost done building the watch movement. The final component that we&rsquo;ll assemble will make the watch automatically wind itself as we roam around.</p>
-<h1 id="automatic-winding">Automatic Winding<a href="https://ciechanow.ski/mechanical-watch/#automatic-winding" class="hanchor" ariaLabel="Anchor"><img src="/images/anchor.png" width="16px" height="8px"/></a> </h1>
+<h1 id="automatic-winding">Automatic Winding<a href="/mechanical-watch/#automatic-winding" class="hanchor" ariaLabel="Anchor"><img src="/images/anchor.png" width="16px" height="8px"/></a> </h1>
 <p>When the person wearing a watch moves arms throughout the day, the orientation of that watch in space changes quite a lot. Even during a leisurely walk, the watch swings slightly relative to the ground. Normally, all the energy used to move the watch goes to waste, but an automatic winding mechanism manages to capture some of it to wind the mainspring.</p>
 <p>Let&rsquo;s first try to understand the main idea by attaching the complete automatic winding mechanism to the watch. Its primary part is the <span class="color_blue"><strong>weight</strong></span> that can rotate freely around the center. When that <span class="color_blue"><strong>weight</strong></span> rotates it drives a <span class="color_yellow"><strong>bunch of gears</strong></span>, with the <span class="color_orange"><strong>last one</strong></span> connecting to the <span class="color_green"><strong>ratchet wheel</strong></span> that is used to wind the mainspring hidden inside the <span class="color_red"><strong>barrel</strong></span>:</p>
 <div class="drawer_container ratio_100" id="automatic_assembly_base"></div>
@@ -391,15 +391,15 @@
 <div id="automatic_interaction_sl0" class="slider_green"></div>
 <p>Notice that I&rsquo;m highlighting a pair of <span class="color_yellow"><strong>yellow</strong></span> and <span class="color_blue"><strong>blue</strong></span> gears only when they&rsquo;re <em>actively</em> transferring power directly from the <span class="color_green"><strong>weight gear</strong></span> to the <span class="color_orange"><strong>output gear</strong></span>. Only one such pair is active at a time – the other either spins idly, or acts as an intermediate to change the direction of rotation to make sure the <span class="color_orange"><strong>output gear</strong></span> always winds the spring.</p>
 <p>Notice that the <span class="color_orange"><strong>output gear</strong></span> rotates very little relative to the <span class="color_green"><strong>gear</strong></span> attached to the weight, so it takes a lot of arm swinging to fully wind the mainspring. However, over the course of a day the automatic winding mechanism can usually ensure that the mainspring stays wound.</p>
-<h1 id="the-size-of-it-all">The Size of it All<a href="https://ciechanow.ski/mechanical-watch/#the-size-of-it-all" class="hanchor" ariaLabel="Anchor"><img src="/images/anchor.png" width="16px" height="8px"/></a> </h1>
+<h1 id="the-size-of-it-all">The Size of it All<a href="/mechanical-watch/#the-size-of-it-all" class="hanchor" ariaLabel="Anchor"><img src="/images/anchor.png" width="16px" height="8px"/></a> </h1>
 <p>In all the examples so far we had the comfort of looking at the parts at a fairly large magnification, but in this last demonstration down below you can finally see how tiny all the components are. By dragging the slider you can change the viewing size:</p>
 <div class="drawer_container ratio_100" id="credit_card_size"></div>
 <div id="credit_card_size_sl0"></div>
 <p>That rounded rectangle surrounding the watch corresponds to the size of a credit card – if you have one handy you can put it on screen and drag the slider until the card fits in that outline. Hopefully, this really puts in perspective how small all the parts we&rsquo;ve talked about are.</p>
-<h1 id="further-watching-and-reading">Further Watching and Reading<a href="https://ciechanow.ski/mechanical-watch/#further-watching-and-reading" class="hanchor" ariaLabel="Anchor"><img src="/images/anchor.png" width="16px" height="8px"/></a> </h1>
+<h1 id="further-watching-and-reading">Further Watching and Reading<a href="/mechanical-watch/#further-watching-and-reading" class="hanchor" ariaLabel="Anchor"><img src="/images/anchor.png" width="16px" height="8px"/></a> </h1>
 <p>There are many YouTube channels dedicated to mechanical watches, but I particularly like <a href="https://www.youtube.com/c/WristwatchRevival/videos">Wristwatch Revival</a>, which is dedicated to fixing broken watches, which very often involves a complete dissection of a movement, and a repair or replacement of broken parts. Although the creator is not a professional watchmaker, the videos are packed with information and are very enjoyable to watch.</p>
 <p><a href="https://www.amazon.com/Watchmaking-George-Daniels/dp/0856677043">Watchmaking</a> by George Daniels is a book dedicated to the process of actually <em>making</em> watches from scratch. While few will endeavor this journey, the publication also explains many of the considerations required when designing a watch movement and its parts. Many of the book&rsquo;s pages are accompanied by pretty technical illustrations that help to explain the concepts.</p>
-<h1 id="final-words">Final Words<a href="https://ciechanow.ski/mechanical-watch/#final-words" class="hanchor" ariaLabel="Anchor"><img src="/images/anchor.png" width="16px" height="8px"/></a> </h1>
+<h1 id="final-words">Final Words<a href="/mechanical-watch/#final-words" class="hanchor" ariaLabel="Anchor"><img src="/images/anchor.png" width="16px" height="8px"/></a> </h1>
 <p>In the 1970s mechanical watches started to be dethroned by quartz models, which track time by electronically counting vibrations of a quartz crystal. As technology progressed, typical watches only increased their reliance on digital circuits. Modern smart reincarnations resemble their archetypes only in shape and placement on wrists.</p>
 <p>Mechanical watches are not as accurate as digital ones. They require maintenance and are more fragile. Despite all these drawbacks, these devices show a <em>true</em> mastery of engineering. With creative use of miniature gears, levers, and springs, a mechanical watch rises from its dormant components to become truly alive.</p>
 
@@ -431,9 +431,7 @@
             
 <div class="article_footer">
 If you enjoy these articles, consider supporting on <a href="https://www.patreon.com/ciechanowski">Patreon</a>.
-</div>
-Copyright &copy; 2023 Bartosz Ciechanowski
-        </div>
+</div>Copyright © 2023 Bartosz Ciechanowski</div>
     </div>
 </body>
 </html>
